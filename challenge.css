@@ -1,0 +1,17 @@
+.gallery{
+    width: 900px;
+    height: 300px;
+   
+  }
+  .gallery > div {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  .gallery > div:nth-child(2n) {
+    background-color: pink;
+  }
+  .gallery > div:nth-child(2n+1) {
+    visibility: hidden;
+  }
+  

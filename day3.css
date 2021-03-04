@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    font-family: helvetica;
+    margin: 0;
+    background-color: burlywood;
+}
+#navigation{
+    background-color: grey;
+    margin: 0;
+    padding: 14px 16px;
+}
+#nav-options{
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+li a:hover{
+    color: palevioletred;
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+
+.hero {
+    background-image: url("https://i.pinimg.com/originals/cb/03/f5/cb03f585f63151e33a5cf24676eee4c1.gif");
+    background-size: cover;
+    height: 600px;
+}
+.hero img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 60px;
+    padding: 250px;
+    color: cornsilk;
+}
+.learning{
+    margin-left: 50px;
+}
